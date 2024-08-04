@@ -11,7 +11,7 @@ spring:   # 服务名称，暂时没有用，讲到SpringCloud服务调用的时
     sampler:
       probability: 1
   datasource:
-    url: jdbc:mysql://192.168.221.136:3306/springcloud?characterEncoding=UTF8&useSSL=false
+    url: jdbc:mysql://192.168.221.133:3306/springcloud?characterEncoding=UTF8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
